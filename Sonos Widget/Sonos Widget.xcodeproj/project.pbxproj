@@ -17,6 +17,35 @@
 		4891FA431A62D58A002D655D /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA421A62D58A002D655D /* TodayViewController.swift */; };
 		4891FA451A62D58A002D655D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4891FA441A62D58A002D655D /* MainInterface.storyboard */; };
 		4891FA481A62D58A002D655D /* Widget Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4891FA3B1A62D58A002D655D /* Widget Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4891FA5C1A62D6A0002D655D /* SonosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA551A62D6A0002D655D /* SonosController.m */; };
+		4891FA5D1A62D6A0002D655D /* SonosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA551A62D6A0002D655D /* SonosController.m */; };
+		4891FA5E1A62D6A0002D655D /* SonosDiscover.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA571A62D6A0002D655D /* SonosDiscover.m */; };
+		4891FA5F1A62D6A0002D655D /* SonosDiscover.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA571A62D6A0002D655D /* SonosDiscover.m */; };
+		4891FA601A62D6A0002D655D /* SonosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA591A62D6A0002D655D /* SonosManager.m */; };
+		4891FA611A62D6A0002D655D /* SonosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA591A62D6A0002D655D /* SonosManager.m */; };
+		4891FA621A62D6A0002D655D /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA5B1A62D6A0002D655D /* XMLReader.m */; };
+		4891FA631A62D6A0002D655D /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA5B1A62D6A0002D655D /* XMLReader.m */; };
+		4891FA791A62D819002D655D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA671A62D819002D655D /* AFHTTPRequestOperation.m */; };
+		4891FA7A1A62D819002D655D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA671A62D819002D655D /* AFHTTPRequestOperation.m */; };
+		4891FA7B1A62D819002D655D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA691A62D819002D655D /* AFHTTPRequestOperationManager.m */; };
+		4891FA7C1A62D819002D655D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA691A62D819002D655D /* AFHTTPRequestOperationManager.m */; };
+		4891FA7D1A62D819002D655D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA6B1A62D819002D655D /* AFHTTPSessionManager.m */; };
+		4891FA7E1A62D819002D655D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA6B1A62D819002D655D /* AFHTTPSessionManager.m */; };
+		4891FA7F1A62D819002D655D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA6E1A62D819002D655D /* AFNetworkReachabilityManager.m */; };
+		4891FA801A62D819002D655D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA6E1A62D819002D655D /* AFNetworkReachabilityManager.m */; };
+		4891FA811A62D819002D655D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA701A62D819002D655D /* AFSecurityPolicy.m */; };
+		4891FA821A62D819002D655D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA701A62D819002D655D /* AFSecurityPolicy.m */; };
+		4891FA831A62D819002D655D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA721A62D819002D655D /* AFURLConnectionOperation.m */; };
+		4891FA851A62D819002D655D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA741A62D819002D655D /* AFURLRequestSerialization.m */; };
+		4891FA861A62D819002D655D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA741A62D819002D655D /* AFURLRequestSerialization.m */; };
+		4891FA871A62D819002D655D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA761A62D819002D655D /* AFURLResponseSerialization.m */; };
+		4891FA881A62D819002D655D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA761A62D819002D655D /* AFURLResponseSerialization.m */; };
+		4891FA891A62D819002D655D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA781A62D819002D655D /* AFURLSessionManager.m */; };
+		4891FA8A1A62D819002D655D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA781A62D819002D655D /* AFURLSessionManager.m */; };
+		4891FA951A62DB10002D655D /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA941A62DB10002D655D /* GCDAsyncUdpSocket.m */; };
+		4891FA961A62DB10002D655D /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA941A62DB10002D655D /* GCDAsyncUdpSocket.m */; };
+		4891FA971A62DBCD002D655D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA721A62D819002D655D /* AFURLConnectionOperation.m */; };
+		4891FA9D1A62EE0D002D655D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4891FA9C1A62EE0D002D655D /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +95,38 @@
 		4891FA411A62D58A002D655D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4891FA421A62D58A002D655D /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		4891FA441A62D58A002D655D /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		4891FA521A62D6A0002D655D /* Sonos Widget-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sonos Widget-Bridging-Header.h"; sourceTree = "<group>"; };
+		4891FA531A62D6A0002D655D /* Widget Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Widget Extension-Bridging-Header.h"; path = "../Sonos Widget/Widget Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		4891FA541A62D6A0002D655D /* SonosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SonosController.h; path = "Libraries/sonos-objc/sonos-objc/SonosController.h"; sourceTree = "<group>"; };
+		4891FA551A62D6A0002D655D /* SonosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SonosController.m; path = "Libraries/sonos-objc/sonos-objc/SonosController.m"; sourceTree = "<group>"; };
+		4891FA561A62D6A0002D655D /* SonosDiscover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SonosDiscover.h; path = "Libraries/sonos-objc/sonos-objc/SonosDiscover.h"; sourceTree = "<group>"; };
+		4891FA571A62D6A0002D655D /* SonosDiscover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SonosDiscover.m; path = "Libraries/sonos-objc/sonos-objc/SonosDiscover.m"; sourceTree = "<group>"; };
+		4891FA581A62D6A0002D655D /* SonosManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SonosManager.h; path = "Libraries/sonos-objc/sonos-objc/SonosManager.h"; sourceTree = "<group>"; };
+		4891FA591A62D6A0002D655D /* SonosManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SonosManager.m; path = "Libraries/sonos-objc/sonos-objc/SonosManager.m"; sourceTree = "<group>"; };
+		4891FA5A1A62D6A0002D655D /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLReader.h; path = "Libraries/sonos-objc/sonos-objc/XMLReader.h"; sourceTree = "<group>"; };
+		4891FA5B1A62D6A0002D655D /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLReader.m; path = "Libraries/sonos-objc/sonos-objc/XMLReader.m"; sourceTree = "<group>"; };
+		4891FA661A62D819002D655D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = Libraries/AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4891FA671A62D819002D655D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = Libraries/AFNetworking/AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		4891FA681A62D819002D655D /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = Libraries/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		4891FA691A62D819002D655D /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = Libraries/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		4891FA6A1A62D819002D655D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = Libraries/AFNetworking/AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		4891FA6B1A62D819002D655D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = Libraries/AFNetworking/AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		4891FA6C1A62D819002D655D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = Libraries/AFNetworking/AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		4891FA6D1A62D819002D655D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = Libraries/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		4891FA6E1A62D819002D655D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = Libraries/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4891FA6F1A62D819002D655D /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = Libraries/AFNetworking/AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4891FA701A62D819002D655D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = Libraries/AFNetworking/AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4891FA711A62D819002D655D /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = Libraries/AFNetworking/AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4891FA721A62D819002D655D /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = Libraries/AFNetworking/AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		4891FA731A62D819002D655D /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = Libraries/AFNetworking/AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4891FA741A62D819002D655D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = Libraries/AFNetworking/AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4891FA751A62D819002D655D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = Libraries/AFNetworking/AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		4891FA761A62D819002D655D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = Libraries/AFNetworking/AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4891FA771A62D819002D655D /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = Libraries/AFNetworking/AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		4891FA781A62D819002D655D /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = Libraries/AFNetworking/AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		4891FA931A62DB10002D655D /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Libraries/CocoaAsyncSocket/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		4891FA941A62DB10002D655D /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Libraries/CocoaAsyncSocket/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		4891FA9C1A62EE0D002D655D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +182,9 @@
 				4891FA171A62D445002D655D /* AppDelegate.swift */,
 				4891FA191A62D445002D655D /* ViewController.swift */,
 				4891FA1B1A62D445002D655D /* Main.storyboard */,
-				4891FA1E1A62D445002D655D /* Images.xcassets */,
 				4891FA201A62D445002D655D /* LaunchScreen.xib */,
+				4891FA1E1A62D445002D655D /* Images.xcassets */,
+				4891FA511A62D654002D655D /* Libraries */,
 				4891FA151A62D445002D655D /* Supporting Files */,
 			);
 			path = "Sonos Widget";
@@ -132,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				4891FA161A62D445002D655D /* Info.plist */,
+				4891FA521A62D6A0002D655D /* Sonos Widget-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,6 +229,7 @@
 			children = (
 				4891FA421A62D58A002D655D /* TodayViewController.swift */,
 				4891FA441A62D58A002D655D /* MainInterface.storyboard */,
+				4891FA9C1A62EE0D002D655D /* Images.xcassets */,
 				4891FA401A62D58A002D655D /* Supporting Files */,
 			);
 			path = "Widget Extension";
@@ -175,8 +239,69 @@
 			isa = PBXGroup;
 			children = (
 				4891FA411A62D58A002D655D /* Info.plist */,
+				4891FA531A62D6A0002D655D /* Widget Extension-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4891FA511A62D654002D655D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA651A62D80B002D655D /* AFNetworking */,
+				4891FA921A62DAF8002D655D /* CocoaAsyncSocket */,
+				4891FA641A62D7F7002D655D /* sonos-objc */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		4891FA641A62D7F7002D655D /* sonos-objc */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA541A62D6A0002D655D /* SonosController.h */,
+				4891FA551A62D6A0002D655D /* SonosController.m */,
+				4891FA561A62D6A0002D655D /* SonosDiscover.h */,
+				4891FA571A62D6A0002D655D /* SonosDiscover.m */,
+				4891FA581A62D6A0002D655D /* SonosManager.h */,
+				4891FA591A62D6A0002D655D /* SonosManager.m */,
+				4891FA5A1A62D6A0002D655D /* XMLReader.h */,
+				4891FA5B1A62D6A0002D655D /* XMLReader.m */,
+			);
+			name = "sonos-objc";
+			sourceTree = "<group>";
+		};
+		4891FA651A62D80B002D655D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA661A62D819002D655D /* AFHTTPRequestOperation.h */,
+				4891FA671A62D819002D655D /* AFHTTPRequestOperation.m */,
+				4891FA681A62D819002D655D /* AFHTTPRequestOperationManager.h */,
+				4891FA691A62D819002D655D /* AFHTTPRequestOperationManager.m */,
+				4891FA6A1A62D819002D655D /* AFHTTPSessionManager.h */,
+				4891FA6B1A62D819002D655D /* AFHTTPSessionManager.m */,
+				4891FA6C1A62D819002D655D /* AFNetworking.h */,
+				4891FA6D1A62D819002D655D /* AFNetworkReachabilityManager.h */,
+				4891FA6E1A62D819002D655D /* AFNetworkReachabilityManager.m */,
+				4891FA6F1A62D819002D655D /* AFSecurityPolicy.h */,
+				4891FA701A62D819002D655D /* AFSecurityPolicy.m */,
+				4891FA711A62D819002D655D /* AFURLConnectionOperation.h */,
+				4891FA721A62D819002D655D /* AFURLConnectionOperation.m */,
+				4891FA731A62D819002D655D /* AFURLRequestSerialization.h */,
+				4891FA741A62D819002D655D /* AFURLRequestSerialization.m */,
+				4891FA751A62D819002D655D /* AFURLResponseSerialization.h */,
+				4891FA761A62D819002D655D /* AFURLResponseSerialization.m */,
+				4891FA771A62D819002D655D /* AFURLSessionManager.h */,
+				4891FA781A62D819002D655D /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		4891FA921A62DAF8002D655D /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA931A62DB10002D655D /* GCDAsyncUdpSocket.h */,
+				4891FA941A62DB10002D655D /* GCDAsyncUdpSocket.m */,
+			);
+			name = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +372,7 @@
 				TargetAttributes = {
 					4891FA111A62D445002D655D = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = BE6NAXXLXT;
 					};
 					4891FA261A62D445002D655D = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -254,6 +380,7 @@
 					};
 					4891FA3A1A62D58A002D655D = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = BE6NAXXLXT;
 					};
 				};
 			};
@@ -300,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4891FA451A62D58A002D655D /* MainInterface.storyboard in Resources */,
+				4891FA9D1A62EE0D002D655D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +438,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4891FA891A62D819002D655D /* AFURLSessionManager.m in Sources */,
 				4891FA1A1A62D445002D655D /* ViewController.swift in Sources */,
 				4891FA181A62D445002D655D /* AppDelegate.swift in Sources */,
+				4891FA7F1A62D819002D655D /* AFNetworkReachabilityManager.m in Sources */,
+				4891FA601A62D6A0002D655D /* SonosManager.m in Sources */,
+				4891FA831A62D819002D655D /* AFURLConnectionOperation.m in Sources */,
+				4891FA7D1A62D819002D655D /* AFHTTPSessionManager.m in Sources */,
+				4891FA851A62D819002D655D /* AFURLRequestSerialization.m in Sources */,
+				4891FA5C1A62D6A0002D655D /* SonosController.m in Sources */,
+				4891FA621A62D6A0002D655D /* XMLReader.m in Sources */,
+				4891FA5E1A62D6A0002D655D /* SonosDiscover.m in Sources */,
+				4891FA7B1A62D819002D655D /* AFHTTPRequestOperationManager.m in Sources */,
+				4891FA951A62DB10002D655D /* GCDAsyncUdpSocket.m in Sources */,
+				4891FA811A62D819002D655D /* AFSecurityPolicy.m in Sources */,
+				4891FA871A62D819002D655D /* AFURLResponseSerialization.m in Sources */,
+				4891FA791A62D819002D655D /* AFHTTPRequestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +469,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4891FA961A62DB10002D655D /* GCDAsyncUdpSocket.m in Sources */,
+				4891FA7A1A62D819002D655D /* AFHTTPRequestOperation.m in Sources */,
+				4891FA801A62D819002D655D /* AFNetworkReachabilityManager.m in Sources */,
+				4891FA8A1A62D819002D655D /* AFURLSessionManager.m in Sources */,
+				4891FA971A62DBCD002D655D /* AFURLConnectionOperation.m in Sources */,
+				4891FA861A62D819002D655D /* AFURLRequestSerialization.m in Sources */,
+				4891FA5D1A62D6A0002D655D /* SonosController.m in Sources */,
+				4891FA881A62D819002D655D /* AFURLResponseSerialization.m in Sources */,
+				4891FA5F1A62D6A0002D655D /* SonosDiscover.m in Sources */,
+				4891FA631A62D6A0002D655D /* XMLReader.m in Sources */,
+				4891FA7C1A62D819002D655D /* AFHTTPRequestOperationManager.m in Sources */,
+				4891FA821A62D819002D655D /* AFSecurityPolicy.m in Sources */,
+				4891FA611A62D6A0002D655D /* SonosManager.m in Sources */,
 				4891FA431A62D58A002D655D /* TodayViewController.swift in Sources */,
+				4891FA7E1A62D819002D655D /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,10 +603,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PROJECT_DIR)/Sonos Widget/Libraries/AFNetworking\"/**",
+					"\"$(PROJECT_DIR)/Sonos Widget/Libraries/CocoaAsyncSocket/GCD\"",
+				);
 				INFOPLIST_FILE = "Sonos Widget/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sonos Widget/Sonos Widget-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -458,10 +625,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PROJECT_DIR)/Sonos Widget/Libraries/AFNetworking\"/**",
+					"\"$(PROJECT_DIR)/Sonos Widget/Libraries/CocoaAsyncSocket/GCD\"",
+				);
 				INFOPLIST_FILE = "Sonos Widget/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sonos Widget/Sonos Widget-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -502,24 +679,47 @@
 		4891FA4A1A62D58A002D655D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = AF_APP_EXTENSIONS;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PROJECT_DIR)/Sonos Widget/Libraries/AFNetworking\"",
+					"\"$(PROJECT_DIR)/Sonos Widget/Libraries/CocoaAsyncSocket/GCD\"",
+				);
 				INFOPLIST_FILE = "Widget Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sonos Widget/Widget Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4891FA4B1A62D58A002D655D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = AF_APP_EXTENSIONS;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(PROJECT_DIR)/Sonos Widget/Libraries/AFNetworking\"",
+					"\"$(PROJECT_DIR)/Sonos Widget/Libraries/CocoaAsyncSocket/GCD\"",
+				);
 				INFOPLIST_FILE = "Widget Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sonos Widget/Widget Extension-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -542,6 +742,7 @@
 				4891FA331A62D445002D655D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4891FA341A62D445002D655D /* Build configuration list for PBXNativeTarget "Sonos WidgetTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +751,7 @@
 				4891FA361A62D445002D655D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4891FA491A62D58A002D655D /* Build configuration list for PBXNativeTarget "Widget Extension" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +760,7 @@
 				4891FA4B1A62D58A002D655D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

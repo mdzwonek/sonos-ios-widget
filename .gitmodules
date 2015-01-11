@@ -1,3 +1,9 @@
 [submodule "Sonos Widget/Sonos Widget/Libraries/sonos-objc"]
 	path = Sonos Widget/Sonos Widget/Libraries/sonos-objc
 	url = git@github.com:n1mda/sonos-objc.git
+[submodule "Sonos Widget/Sonos Widget/Libraries/AFNetworking"]
+	path = Sonos Widget/Sonos Widget/Libraries/AFNetworking
+	url = git@github.com:AFNetworking/AFNetworking.git
+[submodule "Sonos Widget/Sonos Widget/Libraries/CocoaAsyncSocket"]
+	path = Sonos Widget/Sonos Widget/Libraries/CocoaAsyncSocket
+	url = git@github.com:robbiehanson/CocoaAsyncSocket.git
