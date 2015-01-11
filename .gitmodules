@@ -1,0 +1,3 @@
+[submodule "Sonos Widget/Sonos Widget/Libraries/sonos-objc"]
+	path = Sonos Widget/Sonos Widget/Libraries/sonos-objc
+	url = git@github.com:n1mda/sonos-objc.git
