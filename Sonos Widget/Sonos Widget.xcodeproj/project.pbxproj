@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4891FA181A62D445002D655D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA171A62D445002D655D /* AppDelegate.swift */; };
+		4891FA1A1A62D445002D655D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA191A62D445002D655D /* ViewController.swift */; };
+		4891FA1D1A62D445002D655D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4891FA1B1A62D445002D655D /* Main.storyboard */; };
+		4891FA1F1A62D445002D655D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4891FA1E1A62D445002D655D /* Images.xcassets */; };
+		4891FA221A62D445002D655D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4891FA201A62D445002D655D /* LaunchScreen.xib */; };
+		4891FA2E1A62D445002D655D /* Sonos_WidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA2D1A62D445002D655D /* Sonos_WidgetTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4891FA281A62D445002D655D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4891FA0A1A62D445002D655D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4891FA111A62D445002D655D;
+			remoteInfo = "Sonos Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4891FA121A62D445002D655D /* Sonos Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sonos Widget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4891FA161A62D445002D655D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4891FA171A62D445002D655D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4891FA191A62D445002D655D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4891FA1C1A62D445002D655D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4891FA1E1A62D445002D655D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4891FA211A62D445002D655D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4891FA271A62D445002D655D /* Sonos WidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sonos WidgetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4891FA2C1A62D445002D655D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4891FA2D1A62D445002D655D /* Sonos_WidgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sonos_WidgetTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4891FA0F1A62D445002D655D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4891FA241A62D445002D655D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4891FA091A62D445002D655D = {
+			isa = PBXGroup;
+			children = (
+				4891FA141A62D445002D655D /* Sonos Widget */,
+				4891FA2A1A62D445002D655D /* Sonos WidgetTests */,
+				4891FA131A62D445002D655D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4891FA131A62D445002D655D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA121A62D445002D655D /* Sonos Widget.app */,
+				4891FA271A62D445002D655D /* Sonos WidgetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4891FA141A62D445002D655D /* Sonos Widget */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA171A62D445002D655D /* AppDelegate.swift */,
+				4891FA191A62D445002D655D /* ViewController.swift */,
+				4891FA1B1A62D445002D655D /* Main.storyboard */,
+				4891FA1E1A62D445002D655D /* Images.xcassets */,
+				4891FA201A62D445002D655D /* LaunchScreen.xib */,
+				4891FA151A62D445002D655D /* Supporting Files */,
+			);
+			path = "Sonos Widget";
+			sourceTree = "<group>";
+		};
+		4891FA151A62D445002D655D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA161A62D445002D655D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4891FA2A1A62D445002D655D /* Sonos WidgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA2D1A62D445002D655D /* Sonos_WidgetTests.swift */,
+				4891FA2B1A62D445002D655D /* Supporting Files */,
+			);
+			path = "Sonos WidgetTests";
+			sourceTree = "<group>";
+		};
+		4891FA2B1A62D445002D655D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA2C1A62D445002D655D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4891FA111A62D445002D655D /* Sonos Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4891FA311A62D445002D655D /* Build configuration list for PBXNativeTarget "Sonos Widget" */;
+			buildPhases = (
+				4891FA0E1A62D445002D655D /* Sources */,
+				4891FA0F1A62D445002D655D /* Frameworks */,
+				4891FA101A62D445002D655D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sonos Widget";
+			productName = "Sonos Widget";
+			productReference = 4891FA121A62D445002D655D /* Sonos Widget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4891FA261A62D445002D655D /* Sonos WidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4891FA341A62D445002D655D /* Build configuration list for PBXNativeTarget "Sonos WidgetTests" */;
+			buildPhases = (
+				4891FA231A62D445002D655D /* Sources */,
+				4891FA241A62D445002D655D /* Frameworks */,
+				4891FA251A62D445002D655D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4891FA291A62D445002D655D /* PBXTargetDependency */,
+			);
+			name = "Sonos WidgetTests";
+			productName = "Sonos WidgetTests";
+			productReference = 4891FA271A62D445002D655D /* Sonos WidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4891FA0A1A62D445002D655D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mateusz Dzwonek";
+				TargetAttributes = {
+					4891FA111A62D445002D655D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4891FA261A62D445002D655D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4891FA111A62D445002D655D;
+					};
+				};
+			};
+			buildConfigurationList = 4891FA0D1A62D445002D655D /* Build configuration list for PBXProject "Sonos Widget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4891FA091A62D445002D655D;
+			productRefGroup = 4891FA131A62D445002D655D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4891FA111A62D445002D655D /* Sonos Widget */,
+				4891FA261A62D445002D655D /* Sonos WidgetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4891FA101A62D445002D655D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4891FA1D1A62D445002D655D /* Main.storyboard in Resources */,
+				4891FA221A62D445002D655D /* LaunchScreen.xib in Resources */,
+				4891FA1F1A62D445002D655D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4891FA251A62D445002D655D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4891FA0E1A62D445002D655D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4891FA1A1A62D445002D655D /* ViewController.swift in Sources */,
+				4891FA181A62D445002D655D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4891FA231A62D445002D655D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4891FA2E1A62D445002D655D /* Sonos_WidgetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4891FA291A62D445002D655D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4891FA111A62D445002D655D /* Sonos Widget */;
+			targetProxy = 4891FA281A62D445002D655D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4891FA1B1A62D445002D655D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4891FA1C1A62D445002D655D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4891FA201A62D445002D655D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4891FA211A62D445002D655D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4891FA2F1A62D445002D655D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4891FA301A62D445002D655D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4891FA321A62D445002D655D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sonos Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4891FA331A62D445002D655D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sonos Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4891FA351A62D445002D655D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sonos WidgetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonos Widget.app/Sonos Widget";
+			};
+			name = Debug;
+		};
+		4891FA361A62D445002D655D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sonos WidgetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonos Widget.app/Sonos Widget";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4891FA0D1A62D445002D655D /* Build configuration list for PBXProject "Sonos Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4891FA2F1A62D445002D655D /* Debug */,
+				4891FA301A62D445002D655D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4891FA311A62D445002D655D /* Build configuration list for PBXNativeTarget "Sonos Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4891FA321A62D445002D655D /* Debug */,
+				4891FA331A62D445002D655D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4891FA341A62D445002D655D /* Build configuration list for PBXNativeTarget "Sonos WidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4891FA351A62D445002D655D /* Debug */,
+				4891FA361A62D445002D655D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4891FA0A1A62D445002D655D /* Project object */;
+}
