@@ -13,6 +13,10 @@
 		4891FA1F1A62D445002D655D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4891FA1E1A62D445002D655D /* Images.xcassets */; };
 		4891FA221A62D445002D655D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4891FA201A62D445002D655D /* LaunchScreen.xib */; };
 		4891FA2E1A62D445002D655D /* Sonos_WidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA2D1A62D445002D655D /* Sonos_WidgetTests.swift */; };
+		4891FA3E1A62D58A002D655D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4891FA3D1A62D58A002D655D /* NotificationCenter.framework */; };
+		4891FA431A62D58A002D655D /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4891FA421A62D58A002D655D /* TodayViewController.swift */; };
+		4891FA451A62D58A002D655D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4891FA441A62D58A002D655D /* MainInterface.storyboard */; };
+		4891FA481A62D58A002D655D /* Widget Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4891FA3B1A62D58A002D655D /* Widget Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +27,28 @@
 			remoteGlobalIDString = 4891FA111A62D445002D655D;
 			remoteInfo = "Sonos Widget";
 		};
+		4891FA461A62D58A002D655D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4891FA0A1A62D445002D655D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4891FA3A1A62D58A002D655D;
+			remoteInfo = "Widget Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4891FA4C1A62D58A002D655D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4891FA481A62D58A002D655D /* Widget Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4891FA121A62D445002D655D /* Sonos Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sonos Widget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +61,11 @@
 		4891FA271A62D445002D655D /* Sonos WidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sonos WidgetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4891FA2C1A62D445002D655D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4891FA2D1A62D445002D655D /* Sonos_WidgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sonos_WidgetTests.swift; sourceTree = "<group>"; };
+		4891FA3B1A62D58A002D655D /* Widget Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Widget Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4891FA3D1A62D58A002D655D /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4891FA411A62D58A002D655D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4891FA421A62D58A002D655D /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		4891FA441A62D58A002D655D /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +83,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4891FA381A62D58A002D655D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4891FA3E1A62D58A002D655D /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +99,8 @@
 			children = (
 				4891FA141A62D445002D655D /* Sonos Widget */,
 				4891FA2A1A62D445002D655D /* Sonos WidgetTests */,
+				4891FA3F1A62D58A002D655D /* Widget Extension */,
+				4891FA3C1A62D58A002D655D /* Frameworks */,
 				4891FA131A62D445002D655D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +110,7 @@
 			children = (
 				4891FA121A62D445002D655D /* Sonos Widget.app */,
 				4891FA271A62D445002D655D /* Sonos WidgetTests.xctest */,
+				4891FA3B1A62D58A002D655D /* Widget Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +153,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4891FA3C1A62D58A002D655D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA3D1A62D58A002D655D /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4891FA3F1A62D58A002D655D /* Widget Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA421A62D58A002D655D /* TodayViewController.swift */,
+				4891FA441A62D58A002D655D /* MainInterface.storyboard */,
+				4891FA401A62D58A002D655D /* Supporting Files */,
+			);
+			path = "Widget Extension";
+			sourceTree = "<group>";
+		};
+		4891FA401A62D58A002D655D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4891FA411A62D58A002D655D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +189,12 @@
 				4891FA0E1A62D445002D655D /* Sources */,
 				4891FA0F1A62D445002D655D /* Frameworks */,
 				4891FA101A62D445002D655D /* Resources */,
+				4891FA4C1A62D58A002D655D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4891FA471A62D58A002D655D /* PBXTargetDependency */,
 			);
 			name = "Sonos Widget";
 			productName = "Sonos Widget";
@@ -150,6 +219,23 @@
 			productReference = 4891FA271A62D445002D655D /* Sonos WidgetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4891FA3A1A62D58A002D655D /* Widget Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4891FA491A62D58A002D655D /* Build configuration list for PBXNativeTarget "Widget Extension" */;
+			buildPhases = (
+				4891FA371A62D58A002D655D /* Sources */,
+				4891FA381A62D58A002D655D /* Frameworks */,
+				4891FA391A62D58A002D655D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Widget Extension";
+			productName = "Widget Extension";
+			productReference = 4891FA3B1A62D58A002D655D /* Widget Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +251,9 @@
 					4891FA261A62D445002D655D = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 4891FA111A62D445002D655D;
+					};
+					4891FA3A1A62D58A002D655D = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
@@ -183,6 +272,7 @@
 			targets = (
 				4891FA111A62D445002D655D /* Sonos Widget */,
 				4891FA261A62D445002D655D /* Sonos WidgetTests */,
+				4891FA3A1A62D58A002D655D /* Widget Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +292,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4891FA391A62D58A002D655D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4891FA451A62D58A002D655D /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +323,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4891FA371A62D58A002D655D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4891FA431A62D58A002D655D /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +338,11 @@
 			isa = PBXTargetDependency;
 			target = 4891FA111A62D445002D655D /* Sonos Widget */;
 			targetProxy = 4891FA281A62D445002D655D /* PBXContainerItemProxy */;
+		};
+		4891FA471A62D58A002D655D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4891FA3A1A62D58A002D655D /* Widget Extension */;
+			targetProxy = 4891FA461A62D58A002D655D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Sonos Widget/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Sonos Widget/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +499,30 @@
 			};
 			name = Release;
 		};
+		4891FA4A1A62D58A002D655D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Widget Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4891FA4B1A62D58A002D655D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Widget Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +548,14 @@
 			buildConfigurations = (
 				4891FA351A62D445002D655D /* Debug */,
 				4891FA361A62D445002D655D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4891FA491A62D58A002D655D /* Build configuration list for PBXNativeTarget "Widget Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4891FA4A1A62D58A002D655D /* Debug */,
+				4891FA4B1A62D58A002D655D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
