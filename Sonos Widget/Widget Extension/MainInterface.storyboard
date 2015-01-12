@@ -74,6 +74,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <state key="disabled">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -101,6 +104,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="-">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -131,6 +137,14 @@
                     <nil key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="75"/>
+                    <connections>
+                        <outlet property="nextSongButton" destination="Jni-zW-x5f" id="dk6-DH-PH2"/>
+                        <outlet property="playPauseButton" destination="lTU-0H-yKt" id="jyL-3u-umL"/>
+                        <outlet property="previousSongButton" destination="s5Z-d2-qXJ" id="U2W-uu-nQb"/>
+                        <outlet property="volumeDownButton" destination="K1C-s0-Eqx" id="xFW-4j-m0W"/>
+                        <outlet property="volumeImageView" destination="Iae-Ru-huI" id="4eR-XY-kIk"/>
+                        <outlet property="volumeUpButton" destination="tKE-ad-PFv" id="7Wv-ve-hSa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
